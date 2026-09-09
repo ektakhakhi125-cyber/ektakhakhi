@@ -1,0 +1,8 @@
+{
+    "error": "Invalid API key"
+}
+
+{
+    "message": "Login successful",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9..."
+}
