@@ -1,0 +1,61 @@
+Point	PDO	MySQLi	Choice for Flipkart-style product search
+Database support	Supports MySQL and several other databases	Mainly MySQL	PDO — better portability if the database changes
+Security	Supports prepared statements and parameter binding	Also supports prepared statements	Both — either is secure when prepared statements are used correctly
+Error handling	Excellent exception support using PDOException	Supports exceptions/error reporting, but API differs	PDO — clean try...catch structure
+API style	Object-oriented API	Object-oriented and procedural APIs	PDO — consistent OOP interface
+Prepared statements	prepare(), bindValue(), bindParam()	prepare(), bind_param()	PDO — parameter binding is generally more flexible
+Portability	Easy to move between supported DBMSs	Designed specifically for MySQL	PDO
+Learning/use in large applications	Clean and widely used	Good choice for MySQL-only applications	PDO
+
+
+
+
+
+Point                    | PDO                                      | MySQLi                              | Choice for Flipkart-style Search
+-------------------------|------------------------------------------|-------------------------------------|----------------------------------
+Database Support         | Supports MySQL and other databases      | Mainly supports MySQL               | PDO - Better portability
+Security                 | Prepared statements and parameter binding| Prepared statements available       | Both - Secure when used correctly
+Error Handling           | Supports PDOException and try-catch      | Supports errors and exceptions      | PDO - Clean try-catch structure
+API Style                | Object-oriented API                      | OOP and procedural APIs             | PDO - Consistent OOP interface
+Prepared Statements      | prepare(), bindValue(), bindParam()      | prepare(), bind_param()             | PDO - More flexible binding
+Portability              | Can work with different DBMSs            | Designed mainly for MySQL           | PDO - Better portability
+Learning / Large Apps    | Clean and widely used                    | Good for MySQL-only applications    | PDO - Suitable for large apps
+
+
+
+PDO vs MySQLi Comparison
+
+1. Database Support
+   PDO: Supports MySQL and several other databases.
+   MySQLi: Mainly supports MySQL.
+   Choice: PDO, because it provides better portability.
+
+2. Security
+   PDO: Supports prepared statements and parameter binding.
+   MySQLi: Also supports prepared statements.
+   Choice: Both are secure when prepared statements are used correctly.
+
+3. Error Handling
+   PDO: Supports PDOException and try-catch.
+   MySQLi: Supports error reporting and exceptions.
+   Choice: PDO, because try-catch handling is clean and simple.
+
+4. API Style
+   PDO: Object-oriented API.
+   MySQLi: Supports both object-oriented and procedural APIs.
+   Choice: PDO, because it provides a consistent OOP interface.
+
+5. Prepared Statements
+   PDO: Uses prepare(), bindValue(), and bindParam().
+   MySQLi: Uses prepare() and bind_param().
+   Choice: PDO, because parameter binding is more flexible.
+
+6. Portability
+   PDO: Works with several database systems.
+   MySQLi: Designed specifically for MySQL.
+   Choice: PDO, because it is more portable.
+
+7. Large Applications
+   PDO: Clean and widely used in large PHP applications.
+   MySQLi: Good for applications that use only MySQL.
+   Choice: PDO, because it is suitable for scalable applications.
