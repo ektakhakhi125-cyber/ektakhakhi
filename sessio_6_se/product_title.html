@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Product Tile</title>
+
+```
+<style>
+    .product-tile {
+        width: 250px;
+        padding: 20px;
+        border: 1px solid #cccccc;
+        margin: 20px;
+    }
+
+    .product-image {
+        display: block;
+        width: 200px;
+    }
+
+    .product-name {
+        display: block;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .price {
+        display: inline-block;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    /* Adding this class hides the price completely. */
+    .hide-price {
+        display: none;
+    }
+
+    .offer {
+        display: inline-block;
+        margin-left: 10px;
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<div class="product-tile">
+
+    <img
+        class="product-image"
+        src="phone.jpg"
+        alt="Smartphone">
+
+    <span class="product-name">
+        Samsung Galaxy Smartphone
+    </span>
+
+    <!-- Add hide-price to this class to hide the price -->
+    <span class="price hide-price">
+        ₹24,999
+    </span>
+
+    <span class="offer">
+        10% OFF
+    </span>
+
+</div>
+```
+
+</body>
+</html>

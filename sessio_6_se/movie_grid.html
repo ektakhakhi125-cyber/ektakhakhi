@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Movie Posters</title>
+
+```
+<style>
+    .movie-grid {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .movie-poster {
+        position: relative;
+        width: 200px;
+    }
+
+    .movie-poster img {
+        display: block;
+        width: 200px;
+        height: 280px;
+        object-fit: cover;
+    }
+
+    .new-badge {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+
+        padding: 5px 10px;
+
+        background-color: red;
+        color: white;
+
+        font-weight: bold;
+        border-radius: 5px;
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<h1>Movies</h1>
+
+<div class="movie-grid">
+
+    <!-- Poster with New badge -->
+    <div class="movie-poster">
+
+        <img src="image.jpg" alt="Movie 1">
+
+        <span class="new-badge">
+            NEW
+        </span>
+
+    </div>
+
+    <!-- Second poster -->
+    <div class="movie-poster">
+
+        <img src="image.jpg" alt="Movie 2">
+
+    </div>
+
+    <!-- Third poster -->
+    <div class="movie-poster">
+
+        <img src="image.jpg" alt="Movie 3">
+
+    </div>
+
+</div>
+```
+
+</body>
+</html>
