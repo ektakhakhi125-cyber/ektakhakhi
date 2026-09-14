@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+```
+<title>Responsive Product Card</title>
+
+<!-- Viewport for proper mobile scaling -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 30px;
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+    }
+
+    .product-card {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        max-width: 900px;
+        margin: auto;
+        padding: 25px;
+
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+
+    .product-image {
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+
+    .product-details {
+        flex: 1;
+    }
+
+    .product-name {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .price {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 15px 0;
+    }
+
+    .buy-button {
+        padding: 12px 25px;
+        border: none;
+        border-radius: 6px;
+        background-color: #2874f0;
+        color: white;
+        cursor: pointer;
+    }
+
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<div class="product-card">
+
+    <img
+        class="product-image"
+        src="image1.jpg"
+        alt="Smartphone">
+
+    <div class="product-details">
+
+        <h1 class="product-name">
+            Samsung Galaxy Smartphone
+        </h1>
+
+        <p class="description">
+            Powerful smartphone with a high-quality display,
+            excellent camera and long-lasting battery.
+        </p>
+
+        <p class="price">
+            ₹24,999
+        </p>
+
+        <button class="buy-button">
+            Buy Now
+        </button>
+
+    </div>
+
+</div>
+```
+
+</body>
+</html>
