@@ -1,0 +1,20 @@
+/*
+Custom Bootstrap override.
+
+```
+This changes the default Bootstrap primary button
+so we can use our own brand color.
+```
+
+*/
+
+.btn-primary {
+background-color: #8e44ad;
+border-color: #8e44ad;
+}
+
+/* Change the color when the mouse is over the button */
+.btn-primary:hover {
+background-color: #732d91;
+border-color: #732d91;
+}
