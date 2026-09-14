@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #222;
+}
+
+.navbar {
+    background: #222;
+    color: white;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-box,
+.form-container {
+    width: 450px;
+    margin: 70px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.login-box h1,
+.login-box h2,
+.form-container h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #222;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #444;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.success {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+
+.demo {
+    text-align: center;
+    color: #666;
+    margin-top: 20px;
+}
+
+.dashboard {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card {
+    width: 300px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.ticket-container {
+    width: 95%;
+    margin: 40px auto;
+}
+
+.ticket-container h1 {
+    text-align: center;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.filters button {
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #eee;
+}
+
+.status {
+    font-weight: bold;
+}
