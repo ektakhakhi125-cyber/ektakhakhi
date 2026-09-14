@@ -1,0 +1,59 @@
+/* =================================
+GLOBAL
+================================= */
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-family: Arial, sans-serif;
+}
+
+/* =================================
+ARTIST SECTION
+================================= */
+
+.artist-section {
+background: linear-gradient(
+135deg,
+#f8f9fa,
+#e9ecef
+);
+}
+
+.profile-image {
+width: 180px;
+height: 180px;
+object-fit: cover;
+border-radius: 50%;
+border: 5px solid white;
+}
+
+.artist-bio {
+max-width: 650px;
+}
+
+/* =================================
+CARDS
+================================= */
+
+.card {
+transition: transform 0.2s ease;
+}
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+/* =================================
+FOOTER LINKS
+================================= */
+
+footer a {
+text-decoration: none;
+}
+
+footer a:hover {
+opacity: 0.7;
+}

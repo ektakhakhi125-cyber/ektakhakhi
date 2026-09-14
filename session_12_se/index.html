@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+```
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1">
+
+<title>Music Artist Bio</title>
+
+<!-- Bootstrap CSS -->
+<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<!-- =====================================
+     NAVBAR
+====================================== -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            🎵 MusicSpace
+        </a>
+
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <div
+            class="collapse navbar-collapse"
+            id="mainNavbar">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link active"
+                        href="#home">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="#about">
+                        About
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="#playlists">
+                        Playlists
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="#products">
+                        Products
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="#contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
+<!-- =====================================
+     ARTIST PROFILE
+====================================== -->
+
+<section
+    id="home"
+    class="artist-section text-center py-5">
+
+    <div class="container">
+
+        <img
+            src="https://via.placeholder.com/180"
+            alt="Artist Profile"
+            class="profile-image mb-4">
+
+        <h1 class="display-5 fw-bold">
+            Alex Music
+        </h1>
+
+        <p class="lead">
+            Singer • Songwriter • Music Producer
+        </p>
+
+        <p
+            id="about"
+            class="artist-bio mx-auto">
+
+            Welcome to my official music space.
+            Discover my latest songs, playlists and
+            exclusive merchandise.
+
+        </p>
+
+
+        <!-- Social Buttons -->
+
+        <div class="d-flex justify-content-center gap-2 flex-wrap">
+
+            <a
+                href="#"
+                class="btn btn-danger">
+
+                <i class="bi bi-instagram"></i>
+                Instagram
+
+            </a>
+
+
+            <a
+                href="#"
+                class="btn btn-success">
+
+                <i class="bi bi-spotify"></i>
+                Spotify
+
+            </a>
+
+
+            <a
+                href="#"
+                class="btn btn-dark">
+
+                <i class="bi bi-twitter-x"></i>
+                X
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     FEATURED PLAYLISTS
+====================================== -->
+
+<section
+    id="playlists"
+    class="py-5 bg-light">
+
+    <div class="container">
+
+        <h2 class="text-center fw-bold mb-4">
+            Featured Playlists
+        </h2>
+
+
+        <div class="row g-4">
+
+            <!-- Playlist 1 -->
+
+            <div class="col-12 col-md-4">
+
+                <div class="card h-100 shadow-sm">
+
+                    <img
+                        src="https://via.placeholder.com/500"
+                        class="card-img-top"
+                        alt="Chill Vibes">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title fw-bold">
+                            Chill Vibes
+                        </h5>
+
+                        <p class="card-text text-muted">
+                            Relax and enjoy peaceful music.
+                        </p>
+
+                        <button class="btn btn-primary">
+                            Listen Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Playlist 2 -->
+
+            <div class="col-12 col-md-4">
+
+                <div class="card h-100 shadow-sm">
+
+                    <img
+                        src="https://via.placeholder.com/500"
+                        class="card-img-top"
+                        alt="Workout Hits">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title fw-bold">
+                            Workout Hits
+                        </h5>
+
+                        <p class="card-text text-muted">
+                            High-energy songs for your workout.
+                        </p>
+
+                        <button class="btn btn-primary">
+                            Listen Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Playlist 3 -->
+
+            <div class="col-12 col-md-4">
+
+                <div class="card h-100 shadow-sm">
+
+                    <img
+                        src="https://via.placeholder.com/500"
+                        class="card-img-top"
+                        alt="Top Hits">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title fw-bold">
+                            Top Hits
+                        </h5>
+
+                        <p class="card-text text-muted">
+                            Listen to the latest popular songs.
+                        </p>
+
+                        <button class="btn btn-primary">
+                            Listen Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     PRODUCT SHOWCASE
+====================================== -->
+
+<section
+    id="products"
+    class="py-5">
+
+    <div class="container">
+
+        <h2 class="text-center fw-bold mb-4">
+            Exclusive Products
+        </h2>
+
+
+        <div class="row g-4">
+
+            <!-- Product 1 -->
+
+            <div class="col-6 col-md-3">
+
+                <div class="card h-100">
+
+                    <img
+                        src="https://via.placeholder.com/300"
+                        class="card-img-top"
+                        alt="Artist T-Shirt">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Artist T-Shirt
+                        </h5>
+
+                        <p class="fw-bold">
+                            ₹799
+                        </p>
+
+                        <button class="btn btn-primary btn-sm">
+                            Buy Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 2 -->
+
+            <div class="col-6 col-md-3">
+
+                <div class="card h-100">
+
+                    <img
+                        src="https://via.placeholder.com/300"
+                        class="card-img-top"
+                        alt="Music Hoodie">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Music Hoodie
+                        </h5>
+
+                        <p class="fw-bold">
+                            ₹1,499
+                        </p>
+
+                        <button class="btn btn-primary btn-sm">
+                            Buy Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 3 -->
+
+            <div class="col-6 col-md-3">
+
+                <div class="card h-100">
+
+                    <img
+                        src="https://via.placeholder.com/300"
+                        class="card-img-top"
+                        alt="Music Cap">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Music Cap
+                        </h5>
+
+                        <p class="fw-bold">
+                            ₹499
+                        </p>
+
+                        <button class="btn btn-primary btn-sm">
+                            Buy Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 4 -->
+
+            <div class="col-6 col-md-3">
+
+                <div class="card h-100">
+
+                    <img
+                        src="https://via.placeholder.com/300"
+                        class="card-img-top"
+                        alt="Music Mug">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Music Mug
+                        </h5>
+
+                        <p class="fw-bold">
+                            ₹299
+                        </p>
+
+                        <button class="btn btn-primary btn-sm">
+                            Buy Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     CONTACT
+====================================== -->
+
+<section
+    id="contact"
+    class="py-5 bg-light text-center">
+
+    <div class="container">
+
+        <h2 class="fw-bold">
+            Contact
+        </h2>
+
+        <p>
+            For bookings and collaborations:
+        </p>
+
+        <button class="btn btn-dark">
+            Contact Artist
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     FOOTER
+====================================== -->
+
+<footer class="bg-dark text-light py-4">
+
+    <div class="container text-center">
+
+        <p class="mb-3">
+            Follow Alex Music
+        </p>
+
+
+        <div class="d-flex justify-content-center gap-3">
+
+            <a
+                href="#"
+                class="text-light fs-4">
+
+                <i class="bi bi-instagram"></i>
+
+            </a>
+
+
+            <a
+                href="#"
+                class="text-light fs-4">
+
+                <i class="bi bi-spotify"></i>
+
+            </a>
+
+
+            <a
+                href="#"
+                class="text-light fs-4">
+
+                <i class="bi bi-twitter-x"></i>
+
+            </a>
+
+        </div>
+
+
+        <p class="mt-3 mb-0 text-secondary">
+
+            © 2026 Alex Music. All rights reserved.
+
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+<!-- Bootstrap JavaScript -->
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+```
+
+</body>
+
+</html>
