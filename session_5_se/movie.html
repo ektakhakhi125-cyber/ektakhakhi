@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+```
+<title>Movie Details</title>
+
+<style>
+
+    /* Light theme */
+    body {
+        background-color: white;
+        color: black;
+        font-family: Arial, sans-serif;
+        padding: 30px;
+        transition: 0.3s;
+    }
+
+    .movie-card {
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #f2f2f2;
+    }
+
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+
+    /* Dark theme */
+    body.dark-mode {
+        background-color: #121212;
+        color: white;
+    }
+
+    body.dark-mode .movie-card {
+        background-color: #242424;
+    }
+
+    body.dark-mode button {
+        background-color: white;
+        color: black;
+    }
+
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<button onclick="toggleTheme()">
+    🌙 Switch Theme
+</button>
+
+<div class="movie-card">
+
+    <h1>Avengers: Endgame</h1>
+
+    <p>
+        Avengers: Endgame is a superhero movie featuring
+        the Avengers fighting to save the universe.
+    </p>
+
+    <p>
+        Rating: ⭐ 4.5/5
+    </p>
+
+    <p>
+        Genre: Action, Adventure, Science Fiction
+    </p>
+
+</div>
+
+<script>
+
+    function toggleTheme() {
+
+        document.body.classList.toggle("dark-mode");
+
+    }
+
+</script>
+```
+
+</body>
+</html>
