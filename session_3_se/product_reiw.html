@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Review</title>
+</head>
+
+<body>
+
+    <h1>Product Review</h1>
+
+    <form action="reiew.php" method="POST">
+
+        <!-- Username -->
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+
+        <!-- Rating -->
+        <label for="rating">Rating:</label><br>
+        <select id="rating" name="rating" required>
+            <option value="" selected disabled>Select Rating</option>
+            <option value="1">1 - Poor</option>
+            <option value="2">2 - Fair</option>
+            <option value="3">3 - Good</option>
+            <option value="4">4 - Very Good</option>
+            <option value="5">5 - Excellent</option>
+        </select>
+        <br><br>
+
+        <!-- Review -->
+        <label for="review">Review Message:</label><br>
+        <textarea
+            id="review"
+            name="review"
+            rows="5"
+            cols="40"
+            minlength="20"
+            required></textarea>
+        <br><br>
+
+        <button type="submit">Submit Review</button>
+
+    </form>
+
+</body>
+</html>

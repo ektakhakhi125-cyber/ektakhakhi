@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Order</title>
+</head>
+
+<body>
+
+    <h1>Food Order Form</h1>
+
+    <form action="order.php" method="POST">
+
+        <!-- Order ID -->
+        <!-- Disabled because the order ID is generated/fixed by the system
+             and the user should not be allowed to change or submit it. -->
+        <label for="order_id">Order ID:</label><br>
+        <input
+            type="text"
+            id="order_id"
+            name="order_id"
+            value="ORD12345"
+            disabled>
+        <br><br>
+
+        <!-- User Name -->
+        <label for="username">User Name:</label><br>
+        <input
+            type="text"
+            id="username"
+            name="username"
+            required>
+        <br><br>
+
+        <!-- Food Item -->
+        <label for="food">Food Item:</label><br>
+        <select id="food" name="food" required>
+            <option value="" selected disabled>Select Food</option>
+            <option value="pizza">Pizza</option>
+            <option value="burger">Burger</option>
+            <option value="biryani">Biryani</option>
+        </select>
+        <br><br>
+
+        <!-- Quantity -->
+        <label for="quantity">Quantity:</label><br>
+        <input
+            type="number"
+            id="quantity"
+            name="quantity"
+            min="1"
+            required>
+        <br><br>
+
+        <!-- Delivery Instructions -->
+        <label for="instructions">Delivery Instructions:</label><br>
+        <textarea
+            id="instructions"
+            name="instructions"
+            rows="5"
+            cols="40"
+            required></textarea>
+        <br><br>
+
+        <button type="submit">Place Order</button>
+
+    </form>
+
+</body>
+</html>
