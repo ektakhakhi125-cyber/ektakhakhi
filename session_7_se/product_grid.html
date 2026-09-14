@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Product Grid</title>
+
+```
+<style>
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .product-card {
+        border: 1px solid #cccccc;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .product-card img {
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+    }
+
+    .product-card h3 {
+        font-size: 18px;
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<h1>Products</h1>
+
+<section class="product-grid">
+
+    <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Laptop">
+        <h3>Laptop</h3>
+    </div>
+
+    <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Mobile">
+        <h3>Smartphone</h3>
+    </div>
+
+    <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Headphones">
+        <h3>Headphones</h3>
+    </div>
+
+    <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Watch">
+        <h3>Smart Watch</h3>
+    </div>
+
+    <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Keyboard">
+        <h3>Keyboard</h3>
+    </div>
+
+    <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Camera">
+        <h3>Camera</h3>
+    </div>
+
+</section>
+```
+
+</body>
+</html>
